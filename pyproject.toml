@@ -1,0 +1,12 @@
+[project]
+name = "ut330"
+version = "0.1.0"
+description = "Operating system independent controller for the Uni-Trend UT330 family of temperature and humidity loggers."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bokeh>=2.0.1,<3.0",
+    "numpy<1.24.0",
+    "pandas>=2.1.0",
+    "pyserial>=3.01",
+]
